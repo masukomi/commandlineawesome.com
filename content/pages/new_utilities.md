@@ -1,7 +1,7 @@
 ---
 title: "Command Line Awesome - New Utilities"
 date: 2022-06-04T16:40:21-04:00
-draft: true
+draft: false
 ---
 
 Not just [replacing old things](/pages/replacements), but coming up with something entirely new.

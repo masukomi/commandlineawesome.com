@@ -1,7 +1,7 @@
 ---
 title: "Command Line Awesome - Replacements for Standard Tools"
 date: 2022-06-04T15:42:05-04:00
-draft: true
+draft: false
 ---
 
 Most of these are faster and better. Some, try to 
