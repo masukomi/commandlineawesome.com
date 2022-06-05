@@ -25,18 +25,14 @@ body {
 }
 
 #content {
-    min-width: 80em;
-    min-height: 82em;
     margin-left: 5rem;
 }
-blockquote {
-    max-width: 50%;
 
-}
 li > blockquote {
     border-left: solid 0.1rem white;
     margin-left: 1rem;
     padding-left: 1rem;
+    min-width: 40rem;
 }
 p {
     max-width: 50%;
@@ -45,10 +41,14 @@ p {
 li > p {
     display: inline;
 }
+
 li > h2 {
     display: inline;
 }
 
+blockquote {
+    width: 100%;
+}
 #content {
     li:before {
         content: "└─";
@@ -93,13 +93,21 @@ li > h2 {
         opacity: 1;
     }
 }
-
-@media only screen and (min-width: 768px) {
-    // body {
-    //     line-height: 2ex;
-    // }
-
-    #content {
-        min-width: 80em;
-    }
+#activity-content {
+    width: 100%;
 }
+
+#activity-content > span:nth-child(1) > p:nth-child(1) {
+    display: block;
+    width: 100%;
+}
+
+// @media only screen and (min-width: 768px) {
+//     // body {
+//     //     line-height: 2ex;
+//     // }
+
+//     #content {
+//         min-width: 80em;
+//     }
+// }
